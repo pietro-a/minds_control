@@ -3,7 +3,7 @@
     "name": "Minds control",
     "version": "0.1",
     "description": "Cleanup default newsfeed in Minds, hide boosted posts and boost carousel",
-    "homepage_url": "https://antonov.space/",
+    "homepage_url": "https://github.com/pietro-a/minds_control",
 
     "icons": {
         "48": "icons/minds_control-48.png",
