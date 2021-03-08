@@ -10,8 +10,16 @@
         "96": "icons/minds_control-96.png"
     },
 
-    "content_scripts": [{
-        "matches": ["https://www.minds.com/newsfeed/subscriptions"],
-        "css": ["css/minds_control.css"]
-    }]
+    "browser_specific_settings": {
+        "gecko": {
+            "update_url": "https://antonov.space/addons/minds_control/gecko/updates.json"
+        }
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://www.minds.com/newsfeed/subscriptions"],
+            "css": ["css/minds_control.css"]
+        }
+    ]
 }
